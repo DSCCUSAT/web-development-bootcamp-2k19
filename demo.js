@@ -157,4 +157,5 @@ function local_scope() {
 //   console.log(x + " is greater than 9");
 // }
 
+Added by Ashwin
 //SWITCH CASE (CALCULATOR FUNCTION)
