@@ -64,3 +64,48 @@ var text1 = 'You know what this "\\" is?';
 var text2 = "I will study tonight.";
 var text3 = " I am Joking.";
 // console.log(text2 + text3);
+
+// THE LENGTH OF A STRING IS CALCULATED AS FOLLOWS:
+// console.log(text3.length);
+
+//ACCESS ELEMENTS FROM A STRING
+// console.log(text2[2]);
+
+//STRINGS ARE IMMUTABLE
+text3[1] = "w";
+// console.log(text3); //See, there's no change.
+
+//ARRAYS
+var number_arr = [1, 2, 3, 4, 5];
+var anything_arr = [
+  3,
+  "People",
+  "bar",
+  1,
+  "Pencil",
+  1,
+  "John Wick",
+  "Game Over"
+];
+// console.log(anything_arr);
+
+//NESTED ARRAYS
+var nestme = [1, 2, [3, 4, 5], [6, 7, 8], ["Aeiou", "wsad"]];
+// console.log(nestme);
+
+// console.log(number_arr[0]);
+number_arr[0] = 100;
+// console.log(number_arr);
+
+//PUSH, POP, SHIFT, UNSHIFT
+var fruits = ["apple", "banana", "grape", "melon"];
+fruits.push("Kiwi");
+// console.log(fruits);
+fruits.pop();
+// console.log(fruits);
+fruits.unshift("Strawberry");
+// console.log(fruits);
+fruits.shift();
+// console.log(fruits);
+
+//FUNCTION
