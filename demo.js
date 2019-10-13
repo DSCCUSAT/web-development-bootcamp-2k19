@@ -109,3 +109,52 @@ fruits.shift();
 // console.log(fruits);
 
 //FUNCTION
+function displayName() {
+  console.log("My name is Joel Johnson.");
+}
+// displayName();
+function add(a, b) {
+  console.log("The sum is: ", a + b);
+}
+// add(3, 2);
+// add(14, 15);
+// add(100, 200);
+var global = 100;
+// console.log(local);
+
+function local_scope() {
+  var local = 200;
+  console.log(global);
+}
+
+//STRICT EQUALITY OPERATOR
+
+// console.log(2 == "2");
+// console.log(2 == 2);
+// console.log(2 === "2");
+
+//LOGICAL OPERATOR
+
+// console.log(!true);
+// console.log(true && true);
+// console.log(true && false);
+// console.log(true || false);
+// console.log(true || true);
+
+//Conditonal statetments
+// var x = 10;
+// if (x > 5) {
+//   console.log(x + " is greater than 5");
+// } else {
+//   console.log(x + " is less than 5");
+// }
+
+// if (x > 11) {
+//   console.log(x + " is not greater than 11");
+// } else if (x > 10) {
+//   console.log(x + " is not greater than 10");
+// } else if (x > 9) {
+//   console.log(x + " is greater than 9");
+// }
+
+//SWITCH CASE (CALCULATOR FUNCTION)
